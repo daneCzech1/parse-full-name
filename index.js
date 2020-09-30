@@ -149,14 +149,12 @@ exports.parseFullName = function parseFullName(
       'the hon mrs','the hon ms','the hon sir','the very rev','toh puan','tun',
       'vice admiral','viscount','viscountess','wg cdr', 'ind', 'misc', 'mx'];
   } else {
-    suffixList = ['esq','esquire','jr','jnr','sr','snr','2','ii','iii','iv',
-      'md','phd','j.d.','ll.m.','m.d.','d.o.','d.c.','p.c.','ph.d.'];
+    suffixList = ['dis','dr h c','dsc','llm','md','mba','phd','thd','csc','drsc'];
     prefixList = ['ab','bar','bin','da','dal','de','de la','del','della','der',
       'di','du','ibn','l\'','la','le','san','st','st.','ste','ter','van',
       'van de','van der','van den','vel','ver','vere','von'];
-    titleList = ['dr','miss','mr','mrs','ms','prof','sir','frau','herr','hr',
-      'monsieur','captain','doctor','judge','officer','professor', 'ind', 'misc',
-      'mx'];
+    titleList = ['bc','bca','doc','ing','ing arch','judr','mddr','mga','mgr','mudr',
+    'mvdr','pharmdr','phdr','prof','rndr','thdr','thlic','paedr','dr', 'phmr'];
   }
 
   // Nickname: remove and store parts with surrounding punctuation as nicknames
